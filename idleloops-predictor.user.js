@@ -423,6 +423,7 @@ const Koviko = {
       if (!this.totalDisplay) {
         this.totalDisplay = document.createElement('span');
         this.totalDisplay.className = 'koviko';
+        this.totalDisplay.style = 'padding-left:50px;';
         parent.appendChild(this.totalDisplay);
       }
     }
